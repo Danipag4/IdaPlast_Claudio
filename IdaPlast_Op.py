@@ -62,7 +62,7 @@ if "printing" not in st.session_state:
 # Sidebar sempre é renderizada para manter o seletor do colaborador
 # (Mas o CSS oculta ela na impressão física ou no PDF)
 st.sidebar.write("""
-## Claudio
+## Cláudio Luiz dos Santos
 """ )
 
 Nome = st.sidebar.selectbox("Avaliados",df["Colab"].unique())
